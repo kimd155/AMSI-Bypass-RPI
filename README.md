@@ -2,6 +2,11 @@
 
 A technical demonstration developed as part of my learning in MalDev Academy, exploring AMSI evasion concepts on Windows. The project examines process injection and remote memory manipulation techniques used to alter AMSI behavior in PowerShell prior to execution, strictly for educational and research purposes.
 
+## Demo
+<p align="center">
+  <img src="demo.png" alt="AlpineVulnScanner" width="700" height="auto"/>
+</p>
+
 ## Overview
 
 This tool spawns a PowerShell process in a suspended state, loads the AMSI library into the target process, patches the `AmsiScanBuffer` function in remote process memory, and then resumes execution. The result is a PowerShell session with AMSI scanning disabled.
