@@ -103,12 +103,10 @@ Users are responsible for ensuring compliance with all applicable laws and regul
 For security research purposes, it is recommended to:
 
 1. Use isolated virtual machines or dedicated test systems
-2. Add research directories to antivirus exclusions:
+2. To Compile it, you must add the research directories to antivirus exclusions:
    ```powershell
    Add-MpPreference -ExclusionPath "C:\Path\To\Research"
    ```
-3. Document all testing activities
-4. Ensure proper authorization before testing on any system
 
 ## Technical References
 
